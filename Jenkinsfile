@@ -9,7 +9,7 @@ pipeline {
         }
         stage("code stability") {
             steps{
-                mvnjob('compile')
+                first('compile')
             }
         }
     }
