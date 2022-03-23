@@ -1,3 +1,3 @@
-def mavencompile(){
-    sh "mvn compile"
+def call(command){
+    sh "mvn $command"
 }
